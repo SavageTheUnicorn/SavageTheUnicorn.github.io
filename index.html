@@ -13,15 +13,24 @@
 <script type="text/javascript">
 //EDIT UNDER THIS ONLY
 
-const  firebaseConfig = {
-apiKey: "API KEY",
-authDomain: "AUTH DOMAIN",
-databaseURL: "DATABSE URL",
-projectId: "PROJECT ID",
-storageBucket: "BUCKET URL",
-messagingSenderId: "SENDER ID",
-appId: "APP ID"
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyA2KakDJDGg6yIs_E-UARLEsqVPrQUiKYw",
+  authDomain: "ratthew-54808.firebaseapp.com",
+  databaseURL: "https://ratthew-54808-default-rtdb.firebaseio.com",
+  projectId: "ratthew-54808",
+  storageBucket: "ratthew-54808.appspot.com",
+  messagingSenderId: "708997522321",
+  appId: "1:708997522321:web:6fb49d2be9c99b89ad3030"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
  
 
 //DON'T EDIT BELOW THIS
